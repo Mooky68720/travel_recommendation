@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav h1 i {
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li input {
+    border-radius: 15px;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  nav ul li button {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
