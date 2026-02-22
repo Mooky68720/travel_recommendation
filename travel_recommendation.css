@@ -4,8 +4,8 @@
   }
 
   #socialLinks {
-    margin-top: 30px;
-    margin-left: 200px;
+    margin-top: 20px;
+    float: right;
   }
 
 #socialLinks li{
@@ -32,6 +32,35 @@
     margin-left: 200px;
     max-width: 500px;
     font-size: 20px;
+    font-family: system-ui;
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  #aboutUs {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family: system-ui;
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  #teamMembers {
+    margin-top: 20px;
+  }
+
+  #teamMembers li {
+    display: inline-flex;
+  }
+
+  .teamMember {
+    margin-left: 200px;
+    width: 300px;
+    font-size: 40px;
     font-family: system-ui;
     backdrop-filter: blur(20px);
     border-radius: 15px;
