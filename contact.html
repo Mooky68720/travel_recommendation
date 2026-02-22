@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Smart Travel</title>
+    <script src="https://kit.fontawesome.com/8a9e99295f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body>
+    <nav>
+        <h1><i class="fa-solid fa-plane"></i>Smart Travel</h1>
+        <ul>
+            <li><a href="./travel_recommendation.html" id="home">Home</a></li>
+            <li><a href="./about.html" id="about">About Us</a></li>
+            <li><a href="./contact.html" id="contact">Contact Us</a></li>
+            <li style="visibility: hidden"><input type="text" id="recInputs" placeholder="Search for recommendations">  </li>
+            <li style="visibility: hidden"><button id='btnSearch'>Search</button>
+            <li style="visibility: hidden"><button id='btnClear'>Clear</button>
+        </li>
+        </ul>
+    </nav>
+    <ul id="socialLinks">
+        <li><a href="https://bsky.app/" target="_blank"><i class="fa-brands fa-bluesky fa-2xl"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube fa-2xl"></i></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+    </ul>
+    <h1 id="siteWelcome">Contact Us</h1>
+    <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit" onclick="thankyou()">Submit</button>
+    </form>
+    <script>
+        function thankyou(){
+            alert('Thank you for contacting us!')
+        }
+    </script>
+</body>
+</html>
