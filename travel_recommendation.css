@@ -78,17 +78,11 @@
     padding: 10px;
   }
 
-  #contactForm label, input, textarea {
+  .formElement {
     display: block;
+    font-size: 20px;
+    font-family: system-ui;
     width: 100%;
-  }
-
-  #contactForm label {
-    margin-top: 10px;
-  }
-
-  #contactForm input {
-    height: 30px;
   }
 
   #contactForm button {
@@ -96,6 +90,7 @@
     height: 30px;
     width: 100%;
   }
+  
 *{
     margin: 0;
     padding: 0;
