@@ -138,3 +138,27 @@ nav {
     font-weight: bold;
   }
 
+#results {
+    margin-top: 20px;
+    float: right;
+    font-family: system-ui;
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+}
+
+.reco {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.picture {
+    width: 750;
+}
+
+.wrapper {
+  display: flex; 
+  align-items: flex-start;              /* create a flex container */
+  justify-content: space-between; /* push items to opposite edges */
+  padding: 0 1rem;             /* optional – inner spacing */
+}
