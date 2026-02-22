@@ -1,4 +1,6 @@
 const btnSearch = document.getElementById('btnSearch');
+const btnClear = document.getElementById('btnClear');
+const inputField = document.getElementById('recInputs');
 
 function searchRecommendations() {
     const input = document.getElementById('recInputs').value.toLowerCase();
@@ -62,5 +64,16 @@ function searchRecommendations() {
         });
         
 }
+function clear() {
+    inputField.value = "";
+    const resultDiv = document.getElementById('results');
+    resultDiv.innerHTML = "";
+}
 
 btnSearch.addEventListener('click', searchRecommendations);
+inputField.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        searchRecommendations();
+    }
+});
+btnClear.addEventListener('click', clear);
